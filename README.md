@@ -1,5 +1,5 @@
 # RJTextView
-Text view with font size automatically adjustment according to its frame.
+Text view with font size automatically adjustment according to its frame size.
 
 RJTextView can magnify the text's font size as you increase the textview's frame size. Otherwise, when you reduce the frame size, the font size also shrink to make the text fit inside the text view. In addition, the text font size changes in response to adding or deleting texts.
 

@@ -26,7 +26,7 @@
     CGRect rect = self.view.frame;
     
     rect.origin.x += 20; rect.size.width -= 40;
-    rect.origin.y  = 30; rect.size.height = rect.size.width;
+    rect.origin.y  = 80; rect.size.height = rect.size.width;
 
     UIView *bottomView = [[UIView alloc] initWithFrame:rect];
     [bottomView setBackgroundColor:[UIColor lightGrayColor]];
@@ -35,7 +35,7 @@
     CGFloat minHeight = bottomView.bounds.size.height/3.f;
     
     RJTextView *textView = [[RJTextView alloc] initWithFrame:bottomView.bounds
-                                                 defaultText:@"This is Rylan from ArcSoft"
+                                                 defaultText:@"This is Ryan from ArcSoft"
                                                         font:[UIFont systemFontOfSize:14.f]
                                                        color:[UIColor blackColor]
                                                      minSize:CGSizeMake(minWidth, minHeight)];
